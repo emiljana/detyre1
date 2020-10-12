@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Project 1</title>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+    <!---Inicializimi i Menuse--->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a href="#"><img src="images/logo.png" alt=""></a> <!---Imazhi i Logos--->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#webteam">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    <ul>
+      <li><a class="nav-link" href="index.html">Home</a></li>
+      <li><a class="nav-link"href="about.html">About us</a></li>
+      <li><a class="nav-link" href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+    <!---Validimi--->
+    <div class="contact">
+    	<form id="first_form" method="post" action="">
+    <div class="myvld">
+      <label for="name">Emri</label>
+      <input type="text" id="first_name" name="first_name" required>
+    </div>
+    <div class="myvld">
+    <label for="last_name">Mbiemri</label>
+              <input type="text" id="last_name" name="last_name" required>
+            </div>
+     <div class="myvld">
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+            </div>
+      <div class="myvld">
+      <label for="mobile_number">Numri i telefonit</label>
+      <input type="text" id="mobile_number" name="mobile_number" required>
+    </div>
+  <div class="myvld">
+   <input type="submit" class="drg-btn" value="Dergo">
+  </div>
+    </form>
+  </div>
+
+
+  </body>
+</html>
