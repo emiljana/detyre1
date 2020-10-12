@@ -1,0 +1,166 @@
+
+/*---Stilimi i nav navbar---*/
+ul{
+    list-style:none;
+
+}
+ul li {
+  float: left;
+  padding: 5px 120px;
+
+}
+
+.nav-link {
+	font-size:20px;
+	text-transform: uppercase;;
+	font-family:Lato;
+	color:#000;
+
+}
+
+.nav-link:hover{
+	color:red!important;
+}
+
+
+/*---Stilimi i kolones se pare---*/
+.text-1{
+  padding: 35px 65px;
+  margin: 30px 120px;
+  background-color: #e0d4ec42;
+  color: #2a4bea;
+  font-family: emoji;
+  letter-spacing: 1px;
+}
+.teksti-makina{
+  padding: 5px 25px;
+}
+
+.makinat-img{
+  width:700px;
+  height:450px;
+  padding: 10px 20px;
+}
+
+
+
+.paragraf{
+  padding: 30px 60px;
+  color: #3c3c88;
+}
+
+/* Stilimi i kolones 2*/
+/*butoni i pare*/
+
+.makinat-kolona2{
+width: 345px;
+height:200px;
+paddind:0px 20px;
+}
+
+div#makinat-col-1{
+display:inline-flex;
+background-color:  #e0d4ec42;
+}
+.makinat-text{
+    padding-left: 30px;
+    background-color: #a44ef373;
+    color: white;
+    margin: 10px 40px 10px 20 px;
+  }
+  #mybtn{
+ background-color: #f24253d1;
+   margin: 10px 130px;
+   color: white;
+   border-color: white!important;
+ }
+  .kolona-1 {
+    padding-right: 35px;
+  }
+
+/*butoni i dyte*/
+#makinat-col-2{
+  display:inline-flex;
+  background-color: #e0d4ec42;
+
+}
+#mybtn-2{
+  background-color: #f24253d1;
+    margin: 10px 130px;
+    color: white;
+    border-color: white!important;
+  }
+    .kolona-2 {
+        padding-bottom: 30px;
+}
+/* Butoni i trete*/
+#mybtn-3{
+  background-color: #f24253d1;
+    margin: 10px 130px;
+    color: white;
+    border-color: white!important;
+}
+
+#makinat-col-3{
+  padding-top:22px;
+  background-color:#e0d4ec42;
+  width: 725px;
+}
+
+.makinaMeKeste{
+  width: 725px;
+  height: 430px;
+}
+.teksti-fundit {
+
+    background-color:#e0d4ec42;
+    margin: 0px;
+    color: #090b4af0;
+    padding-left: 30px;
+    letter-spacing: inherit;
+}
+
+
+/*---Stilimi i Vlidimit---*/
+
+#first_form{
+  margin:100px 550px;
+  width: 445px;
+}
+.myvld{
+  padding: 10px;
+    background-color: #eddce4;
+}
+
+
+#first_name{
+  padding: 7px 100px;
+  border-color: #66a6eb;
+
+}
+#last_name{
+  padding: 7px 100px;
+  border-color: #66a6eb;
+}
+#email{
+  padding: 7px 100px;
+  border-color: #66a6eb;
+}
+#mobile_number {
+    padding: 7px 100px;
+    border-color: #66a6eb;
+}
+.myvld {
+    padding: 10px 30px;
+    background-color: #eddce4;
+}
+.drg-btn{
+  background-color: #e80808d6;
+  color: #ede8e8;
+  padding: 5px 30px;
+  }
+.drg-btn{ background-color: #f23c3cd1;
+    color: #ede8e8;
+    padding: 5px 30px;
+    border-color: #ffffff52
+  }
